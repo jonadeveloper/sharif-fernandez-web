@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #776040;
+}
+
+
+#logo{
+    width: 15rem;
+    height: auto;
+}
