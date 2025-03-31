@@ -1,14 +1,14 @@
 import {useState} from 'react'
-import "./Header.css"
-import Logo from "../../assets/sharifLOGO.webp"
+import "./Navbar.css"
+import Logo from "../../assets/sharifLOGO2.webp"
 import { IoIosArrowDown } from "react-icons/io";
 
 
 
 
-export default function Header() {
+export default function Navbar() {
     const [open, setOpen] = useState(false);
-  return (
+return (
     <header>
         <img src={Logo} id='logo' alt="Logo" />
         <nav className='navbar'>
@@ -19,8 +19,8 @@ export default function Header() {
                     Tienda <IoIosArrowDown />
                     {open && (
                         <ul className='sub-menu'>
-                            <li>Mexico</li>
                             <li>España</li>
+                            <li>Mexico</li>
                         </ul>
                     )}
                 </li>
@@ -28,5 +28,5 @@ export default function Header() {
             </ul>
         </nav>
     </header>
-  )
+)
 }
