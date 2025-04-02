@@ -22,3 +22,43 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.news{
+    width: 100%;
+}
+
+.title-section{
+    margin-top: 4rem;
+    text-align: center;
+    font-family:fantasy;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.container-articles{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.title-article{
+    text-align: center;
+    margin: 3rem;
+    font-size: 2rem
+} 
+
+.text{
+    text-align: start;
+}
+
+.important{
+    text-align: center;
+    color: red;
+}
