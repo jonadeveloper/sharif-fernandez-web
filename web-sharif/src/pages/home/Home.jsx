@@ -7,6 +7,8 @@ return (
     <section className='slider'>
         <div className="description">
             <h1>Sharif Fernandez</h1>
+            
+            <button className='cta'>Escucha mi ultimo Disco - Capricornio</button>
         </div>
     </section>
     <section className='news'>
@@ -27,7 +29,7 @@ return (
             </article>
             <article className='article'>
                 <h3 className='title-article'>
-                RAFAEL LECHOWSKI & SHARIF <br /> «UN INSTANTE ETERNO» Tour
+                Rafael Lechowsky & Sharif «Un instante eterno» Tour
                 </h3>
                 {/* <img src="" alt="" /> */}
                 <p className='text'>

@@ -10,6 +10,8 @@
 
 .description{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -21,6 +23,18 @@
     letter-spacing: 2px;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.cta{
+    background: linear-gradient(to bottom, #d49336 0%, #161616 100%);
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.30rem;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.90rem;
+    font-weight: 700;
+    margin: 2rem;
 }
 
 .news{
@@ -51,11 +65,17 @@
 .title-article{
     text-align: center;
     margin: 3rem;
-    font-size: 2rem
+    /* text-transform:lowercase; */
+    font-size: 2.3rem;
+    font-style: italic;
 } 
 
 .text{
     text-align: start;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #4b4949;
 }
 
 .important{
