@@ -26,8 +26,11 @@
 }
 
 .cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: linear-gradient(to bottom, #d49336 0%, #161616 100%);
-    width: 20rem;
+    width: 23rem;
     height: 2.5rem;
     border-radius: 0.30rem;
     border: none;
@@ -35,6 +38,23 @@
     font-size: 0.90rem;
     font-weight: 700;
     margin: 2rem;
+}
+
+.cd{
+    animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+.cd{
+    font-size: 1.5rem;
 }
 
 .news{
@@ -58,6 +78,8 @@
 
 .article{
     width: 80%;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     padding: 0.5rem;
 }
@@ -69,6 +91,12 @@
     font-size: 2.3rem;
     font-style: italic;
 } 
+
+.image-article{
+    display: flex;
+    align-self: center;
+    width: 25rem;
+}
 
 .text{
     text-align: start;

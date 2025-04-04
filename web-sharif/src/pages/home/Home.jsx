@@ -1,5 +1,8 @@
 import React from 'react';
 import './Home.css';
+import { GiCompactDisc } from "react-icons/gi";
+import photoTour from "../../assets/shariftour2025.webp";
+
 
 export default function Home() {
 return (
@@ -8,7 +11,10 @@ return (
         <div className="description">
             <h1>Sharif Fernandez</h1>
             
-            <button className='cta'>Escucha mi ultimo Disco - Capricornio</button>
+            <button className='cta'>
+                Escucha mi ultimo Disco - Capricornio 
+                <GiCompactDisc className='cd' />
+            </button>
         </div>
     </section>
     <section className='news'>
@@ -18,7 +24,7 @@ return (
         <div className="container-articles">
             <article className='article'>
                 <h3 className='title-article'>SHARIF - TOUR MEXICO 2025</h3>
-                {/* <img src="" alt="" /> */}
+                <img className='image-article' src={photoTour} alt="tour2025" />
                 <p className='text'>
                     Mi gente bonita, volvemos a mi México amado para cantar de nuevo con ustedes. En esta ocasión van a ser tres conciertos únicos y especiales, porque me traigo a Rapsusklei y a Juaninacka 
                     como invitados a cada uno de ellos. <br /> <br />No les quiero adelantar muchas sorpresas, pero para ir abriendo boca les diré que 
@@ -31,7 +37,7 @@ return (
                 <h3 className='title-article'>
                 Rafael Lechowsky & Sharif «Un instante eterno» Tour
                 </h3>
-                {/* <img src="" alt="" /> */}
+                <img src="" alt="" />
                 <p className='text'>
                 Familia, no les descubro nada si les hablo del amor y admiracion que siento hacia Rafael Lechowski. 
                 En un bello y magico eclipse hemos unido fuerzas para darle a nuestra gente de Latam el show que se merecen.
@@ -52,7 +58,7 @@ return (
                 <h3 className='title-article'>
                     TOUR DIAS Y ELECTRICIDADES
                 </h3>
-                {/* <img src="" alt="" /> */}
+                <img src="" alt="" />
                 <p className='text'>
                 Volvemos a los escenarios como siempre, con un show como nunca. Volvemos con un nuevo disco bajo el brazo y 
                 con un nuevo formato de directo en el que hemos incluido las mejores canciones de mis discos anteriores y 
