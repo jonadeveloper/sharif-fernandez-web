@@ -40,8 +40,15 @@
     margin: 2rem;
 }
 
+
 .cd{
+    font-size: 1.5rem;
     animation: girar 2s linear infinite;
+}
+
+.cta:hover{
+    cursor: pointer;
+    color: #2f2e2e;
 }
 
 @keyframes girar {
@@ -51,8 +58,4 @@
     to {
     transform: rotate(360deg);
     }
-}
-
-.cd{
-    font-size: 1.5rem;
 }

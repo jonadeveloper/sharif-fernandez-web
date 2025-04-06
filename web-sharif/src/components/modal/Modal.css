@@ -1,0 +1,14 @@
+.modal{
+    background: #fff;
+    width: 40rem;
+}
+
+.btn-close{
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    float: right;
+    font-size: 2rem;
+    border: none;
+}
+
