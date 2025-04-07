@@ -1,14 +1,25 @@
 .modal{
-    background: #fff;
-    width: 40rem;
+    position: absolute;
+    z-index: 1;
+    background: #232323;
+    width: fit-content;
+    border-radius: 0.5rem;
 }
 
 .btn-close{
+    border-radius: 0.5rem;
     width: 2rem;
     height: 2rem;
     display: block;
     float: right;
     font-size: 2rem;
     border: none;
+    background-color: #9d0101;
+    color:#232323;
+}
+
+.btn-close:hover{
+    cursor: pointer;
+    background-color: #cf0505;
 }
 

@@ -3,6 +3,12 @@ import './Home.css';
 import { GiCompactDisc } from "react-icons/gi";
 import Modal from '../../components/modal/Modal';
 import Capricornio from '../../assets/capricornio-sf.webp';
+import { FaYoutube } from "react-icons/fa";
+import { FaSpotify } from "react-icons/fa";
+import { FaHeadphones } from "react-icons/fa";
+
+
+
 
 
 export default function Home() {
@@ -17,12 +23,20 @@ return (
                 Escucha mi ultimo Disco - Capricornio 
                 <GiCompactDisc className='cd' />
             </button>
-            <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-                <h2 className="modalDisc">
-                    Escucha mi ultimo lanzamiento
+            <Modal className="modalDisc" open={isOpen} onClose={() => setIsOpen(false)}>
+                <h2 className='title-modal'>
+                    « Haz presave de capricornio aqui »          
                 </h2>
-                <img src={Capricornio} alt="disco capricornio" />
-                <p>Este modal es completamente reutilizable y se cierra con la X.</p>
+                <img className='img-disc' src={Capricornio} alt="disco capricornio" />
+                <div className="listen-to-the-record">
+                    <a href="https://www.youtube.com/watch?v=0VYNu7_zlE4&list=PL1pbt-Jy-buU25GklXRR9NdXXk3uzJFXq" target='_blank'>
+                        <FaYoutube className='youtube' />
+                    </a>
+                    <FaHeadphones className='headphone' />
+                    <a href="https://open.spotify.com/intl-es/album/7jKJG9mIRc0BoATP9paXhz" target='_blank'>
+                        <FaSpotify className='spotify' />
+                    </a>
+                </div>
             </Modal>
         </div>
     </section>
