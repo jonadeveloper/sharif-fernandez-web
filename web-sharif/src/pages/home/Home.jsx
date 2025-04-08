@@ -5,7 +5,7 @@ import Modal from '../../components/modal/Modal';
 import Capricornio from '../../assets/capricornio-sf.webp';
 import { FaYoutube } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
-import { FaHeadphones } from "react-icons/fa";
+import { SiApplemusic } from "react-icons/si";
 
 
 
@@ -32,9 +32,12 @@ return (
                     <a href="https://www.youtube.com/watch?v=0VYNu7_zlE4&list=PL1pbt-Jy-buU25GklXRR9NdXXk3uzJFXq" target='_blank'>
                         <FaYoutube className='youtube' />
                     </a>
-                    <FaHeadphones className='headphone' />
+                    
                     <a href="https://open.spotify.com/intl-es/album/7jKJG9mIRc0BoATP9paXhz" target='_blank'>
                         <FaSpotify className='spotify' />
+                    </a>
+                    <a href="https://music.apple.com/ar/album/capricornio/1774030399" target='_blank'>
+                        <SiApplemusic className='headphone' />
                     </a>
                 </div>
             </Modal>

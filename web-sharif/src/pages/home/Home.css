@@ -86,16 +86,31 @@
 }
 
 .youtube{
-    color: red;
+    color: #9c0303;
     font-size: 2rem;
 }
 
 .headphone{
-    color: #ffffff;
+    color: #9c0303;
     font-size: 1.5rem;
 }
 
 .spotify{
-    color: green;
+    color: #027602;
     font-size: 2rem;
+}
+
+.youtube:hover{
+    cursor: pointer;
+    color: #bd0505;
+}
+
+.spotify:hover{
+    cursor: pointer;
+    color: #02a202;
+}
+
+.headphone:hover{
+    cursor: pointer;
+    color: #bd0505;
 }

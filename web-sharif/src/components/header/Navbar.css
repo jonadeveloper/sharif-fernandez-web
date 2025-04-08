@@ -7,7 +7,7 @@ header {
 }
 
 .menu {
-    width: 30rem;
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -17,6 +17,7 @@ header {
 .menu li {
     display: flex;
     align-items: center;
+    margin-right:3rem;
     list-style: none;
     font-family: "Playfair Display", serif;
     text-transform: capitalize;

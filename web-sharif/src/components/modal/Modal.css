@@ -1,7 +1,7 @@
 .modal{
     position: absolute;
     z-index: 1;
-    background: #232323;
+    background: #171717;
     width: fit-content;
     border-radius: 0.5rem;
 }
@@ -14,12 +14,13 @@
     float: right;
     font-size: 2rem;
     border: none;
-    background-color: #9d0101;
+    background: linear-gradient(to bottom, #d49336 0%, #161616 100%);
     color:#232323;
 }
 
 .btn-close:hover{
     cursor: pointer;
-    background-color: #cf0505;
+    background: linear-gradient(to bottom, #a1702a 0%, #161616 100%);
+    color: #000;
 }
 

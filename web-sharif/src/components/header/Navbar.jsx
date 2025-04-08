@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import "./Navbar.css"
 import Logo from "../../assets/sharifLOGO2.webp"
-import { IoIosArrowDown } from "react-icons/io";
+import { TiArrowSortedDown } from "react-icons/ti";
 
 
 
@@ -14,9 +14,10 @@ return (
         <nav className='navbar'>
             <ul className='menu'>
                 <li>Inicio</li>
+                <li>Noticias</li>
                 <li>Conciertos</li>
                 <li onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
-                    Tienda <IoIosArrowDown />
+                    Tienda <TiArrowSortedDown />
                     {open && (
                         <ul className='sub-menu'>
                             <li>España</li>
