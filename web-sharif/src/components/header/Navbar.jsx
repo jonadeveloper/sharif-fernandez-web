@@ -14,7 +14,7 @@ return (
         <nav className='navbar'>
             <ul className='menu'>
                 <li>Inicio</li>
-                <li>Noticias</li>
+                <li><a href='#news'>Noticias</a></li>
                 <li>Conciertos</li>
                 <li onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
                     Tienda <TiArrowSortedDown />

@@ -26,6 +26,11 @@ header {
     color: #c78c3a;
 }
 
+.menu li a{
+    text-decoration: none;
+    color: #c78c3a;
+}
+
 .sub-menu {
     position: absolute;
     background: transparent;

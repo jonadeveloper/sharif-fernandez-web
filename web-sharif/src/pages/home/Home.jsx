@@ -43,6 +43,9 @@ return (
             </Modal>
         </div>
     </section>
+    <section id="news">
+        <h2>Ultimas noticias</h2>
+    </section>
     </>
 )
 }
