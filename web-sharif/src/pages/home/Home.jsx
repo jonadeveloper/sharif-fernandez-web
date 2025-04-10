@@ -6,6 +6,8 @@ import Capricornio from '../../assets/capricornio-sf.webp';
 import { FaYoutube } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
 import { SiApplemusic } from "react-icons/si";
+import { articles } from '../../api/data.json'
+import NewsCard from '../../components/newsCard/newsCard';
 
 
 
@@ -45,6 +47,16 @@ return (
     </section>
     <section id="news">
         <h2>Ultimas noticias</h2>
+        <div>
+            {articles.map(art => (
+                <NewsCard
+                key={art.id}
+                id={art.id}
+                title={art.title}
+                shortText={art.shortText}
+                />
+            ))}
+        </div>
     </section>
     </>
 )

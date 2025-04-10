@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className='footer'>
         <p>
-            &copy; {year} | Sharif. Todos los derechos reservados. Un sitio creado por <a href="https://instagram.com/jona.dev_ok" target='_blank'>Jona - Dev</a>
+            &copy; {year} | Sharif. Todos los derechos reservados. Un sitio creado por <a className='dev' href="https://instagram.com/jona.dev_ok" target='_blank'>Jona - Dev</a>
         </p>
     </footer>
   )

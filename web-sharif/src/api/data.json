@@ -1,0 +1,25 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Sharif tour Mexico 2025",
+      "image": "../../src/assets/card",
+      "shortText": "",
+      "textComplete": ""
+    },
+    {
+      "id": "2",
+      "title": "Rafael Lechowski & Sharif «Uun instante eterno» Tour",
+      "image": "../../src/assets/card",
+      "shortText": "",
+      "textComplete": ""
+    },
+    {
+      "id": "3",
+      "title": "Tour Dias Y Electricidades",
+      "image": "../../src/assets/card",
+      "shortText": "",
+      "textComplete": ""
+    }
+  ]
+}

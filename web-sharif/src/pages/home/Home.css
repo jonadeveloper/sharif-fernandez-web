@@ -114,3 +114,12 @@
     cursor: pointer;
     color: #bd0505;
 }
+
+#news h2{
+    margin-top: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}

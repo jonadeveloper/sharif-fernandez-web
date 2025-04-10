@@ -26,9 +26,18 @@ header {
     color: #c78c3a;
 }
 
-.menu li a{
+.item > .item-link{
     text-decoration: none;
     color: #c78c3a;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.15rem;
+
+}
+
+.store{
+    cursor:context-menu;
 }
 
 .sub-menu {
