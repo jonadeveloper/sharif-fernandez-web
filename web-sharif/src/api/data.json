@@ -3,23 +3,23 @@
     {
       "id": "1",
       "title": "Sharif tour Mexico 2025",
-      "image": "../../src/assets/card",
+      "image": "/shariftour2025.webp",
       "shortText": "",
-      "textComplete": ""
+      "textComplete": "Mi gente bonita, volvemos a mi México amado para cantar de nuevo con ustedes. En esta ocasión van a ser tres conciertos únicos y especiales, porque me traigo a Rapsusklei y a Juaninacka como invitados a cada uno de ellos. No les quiero adelantar muchas sorpresas, pero para ir abriendo boca les diré que el evento constara de tres shows independientes. En la sección de conciertos tienen la información y el cartel de cada ciudad. Les besamos."
     },
     {
       "id": "2",
       "title": "Rafael Lechowski & Sharif «Uun instante eterno» Tour",
-      "image": "../../src/assets/card",
+      "image": "/sharifFRafaelL.webp",
       "shortText": "",
-      "textComplete": ""
+      "textComplete": "Familia, no les descubro nada si les hablo del amor y admiracion que siento hacia Rafael Lechowski. En un bello y magico eclipse hemos unido fuerzas para darle a nuestra gente de Latam el show que se merecen. Sera a lo largo de 8 conciertos (quiza alguno mas), donde Rafael y yo nos haremos cada uno un show inividual en el que cantaremos temas de todos nuestros discos, desde los mas antiguos a los mas nuevos. Habra merchan, sorpresas y buenos versos. Les besamos."
     },
     {
       "id": "3",
       "title": "Tour Dias Y Electricidades",
-      "image": "../../src/assets/card",
+      "image": "/diasYelectricidades.webp",
       "shortText": "",
-      "textComplete": ""
+      "textComplete": "Volvemos a los escenarios como siempre, con un show como nunca. Volvemos con un nuevo disco bajo el brazo y con un nuevo formato de directo en el que hemos incluido las mejores canciones de mis discos anteriores y las de este nuevo trabajo. Les esperamos a todos para cantar juntos, y brindar y celebrar bajo su cielo. Les beso y les beso."
     }
   ]
 }

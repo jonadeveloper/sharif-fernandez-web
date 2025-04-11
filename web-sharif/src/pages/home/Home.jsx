@@ -9,10 +9,6 @@ import { SiApplemusic } from "react-icons/si";
 import { articles } from '../../api/data.json'
 import NewsCard from '../../components/newsCard/newsCard';
 
-
-
-
-
 export default function Home() {
     const [isOpen, setIsOpen] = useState(false);
 return (
@@ -52,6 +48,7 @@ return (
                 <NewsCard
                 key={art.id}
                 id={art.id}
+                image={art.image}
                 title={art.title}
                 shortText={art.shortText}
                 />
