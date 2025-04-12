@@ -42,15 +42,14 @@ return (
         </div>
     </section>
     <section id="news">
-        <h2>Ultimas noticias</h2>
-        <div>
+        <h2 className='section-news-title'>Ultimas noticias</h2>
+        <div className='container-cards'>
             {articles.map(art => (
                 <NewsCard
                 key={art.id}
                 id={art.id}
                 image={art.image}
                 title={art.title}
-                shortText={art.shortText}
                 />
             ))}
         </div>

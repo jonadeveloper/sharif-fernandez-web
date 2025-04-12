@@ -115,11 +115,17 @@
     color: #bd0505;
 }
 
-#news h2{
+.section-news-title{
     margin-top: 2rem;
     padding: 1.5rem;
     text-align: center;
     font-size: 3.5rem;
     letter-spacing: 2px;
     text-transform: capitalize;
+}
+
+.container-cards{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
