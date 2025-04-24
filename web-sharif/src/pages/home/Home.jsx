@@ -13,7 +13,7 @@ export default function Home() {
     const [isOpen, setIsOpen] = useState(false);
 return (
     <>
-    <section className='slider'>
+    <section id='home' className='slider'>
         <div className="description">
             <h1>Sharif Fernandez</h1>
             

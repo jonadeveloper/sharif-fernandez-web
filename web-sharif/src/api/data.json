@@ -21,5 +21,14 @@
       "shortText": "Volvemos a los escenarios como siempre, con un show como nunca. Volvemos con un nuevo disco bajo el brazo y con un nuevo formato de directo en el que...",
       "textComplete": "Volvemos a los escenarios como siempre, con un show como nunca. Volvemos con un nuevo disco bajo el brazo y con un nuevo formato de directo en el que hemos incluido las mejores canciones de mis discos anteriores y las de este nuevo trabajo. Les esperamos a todos para cantar juntos, y brindar y celebrar bajo su cielo. Les beso y les beso."
     }
+  ],
+  "concerts": [
+    {
+      "id": "",
+      "title": "",
+      "city": "",
+      "img": "",
+      "link": ""
+    }
   ]
 }

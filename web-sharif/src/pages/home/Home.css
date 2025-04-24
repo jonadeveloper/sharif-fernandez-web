@@ -115,11 +115,17 @@
     color: #bd0505;
 }
 
+#news{
+    margin-top: 4rem;
+    padding-top: 2rem;
+    height: 100vh;
+}
+
 .section-news-title{
     margin-top: 2rem;
     padding: 1.5rem;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.75rem;
     letter-spacing: 2px;
     text-transform: capitalize;
 }
@@ -127,5 +133,7 @@
 .container-cards{
     overflow: hidden;
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    padding: 1rem;
 }
