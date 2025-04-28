@@ -1,0 +1,8 @@
+.slider-concerts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/sharif-bw.webp');
+    background-size: cover;
+}

@@ -2,6 +2,7 @@ import {useState} from 'react'
 import "./Navbar.css"
 import Logo from "../../assets/sharifLOGO2.webp"
 import { TiArrowSortedDown } from "react-icons/ti";
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,9 +14,9 @@ return (
         <img src={Logo} id='logo' alt="Logo" />
         <nav className='navbar'>
             <ul className='menu'>
-                <li className='item'><a className='item-link' href="#home">Inicio</a></li>
-                <li className='item'><a className='item-link' href='#news'>Noticias</a></li>
-                <li className='item'><a className='item-link' href="">Conciertos</a></li>
+                <li className='item'><a className='item-link' href="/#">Inicio</a></li>
+                <li className='item'><a className='item-link' href='/#news'>Noticias</a></li>
+                <li className='item'><a className='item-link' href="/conciertos">Conciertos</a></li>
                 <li className='item store'  onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
                     Tienda <TiArrowSortedDown />
                     {open && (

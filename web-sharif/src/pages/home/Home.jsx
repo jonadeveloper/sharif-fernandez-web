@@ -8,20 +8,21 @@ import { FaSpotify } from "react-icons/fa";
 import { SiApplemusic } from "react-icons/si";
 import { articles } from '../../api/data.json'
 import NewsCard from '../../components/newsCard/newsCard';
+import Slider from '../../components/slider/Slider';
 
 export default function Home() {
     const [isOpen, setIsOpen] = useState(false);
 return (
     <>
-    <section id='home' className='slider'>
-        <div className="description">
-            <h1>Sharif Fernandez</h1>
+    <Slider>
+    <div className="slider description">
+        <h1>Sharif Fernandez</h1>
             
-            <button className='cta' onClick={() => setIsOpen(true)}>
+        <button className='cta' onClick={() => setIsOpen(true)}>
                 Escucha mi ultimo Disco - Capricornio 
                 <GiCompactDisc className='cd' />
-            </button>
-            <Modal className="modalDisc" open={isOpen} onClose={() => setIsOpen(false)}>
+        </button>
+        <Modal className="modalDisc" open={isOpen} onClose={() => setIsOpen(false)}>
                 <h2 className='title-modal'>
                     « Haz presave de capricornio aqui »          
                 </h2>
@@ -38,9 +39,9 @@ return (
                         <SiApplemusic className='headphone' />
                     </a>
                 </div>
-            </Modal>
-        </div>
-    </section>
+        </Modal>
+    </div>
+    </Slider>
     <section id="news">
         <h2 className='section-news-title'>Ultimas noticias</h2>
         <div className='container-cards'>
