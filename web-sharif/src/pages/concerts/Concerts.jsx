@@ -6,7 +6,6 @@ export default function Concerts() {
   return (
     <Slider>
         <div className="slider-concerts description">
-            <h1>Conciertos</h1>
         </div>
     </Slider>
   )

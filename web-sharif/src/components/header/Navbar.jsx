@@ -21,8 +21,8 @@ return (
                     Tienda <TiArrowSortedDown />
                     {open && (
                         <ul className='sub-menu'>
-                            <li className='item'><a className='item-link' href="">España</a></li>
-                            <li className='item'><a className='item-link' href="">Mexico</a></li>
+                            <li className='item'><a className='item-link' href="https://rattio.es/sharif/" target='_blank'>España</a></li>
+                            <li className='item'><a className='item-link' href="https://sharifstoremx.com/?fbclid=IwY2xjawGcOWFleHRuA2FlbQIxMAABHRXfIDoNTZvu8NMRovyjqkebQGGIvXbdxr7saRsr9CKrDO3QM00vlcsDXg_aem_KNPGPX1H6NquJ17VSMgQew" target='_blank'>Mexico</a></li>
                         </ul>
                     )}
                 </li>

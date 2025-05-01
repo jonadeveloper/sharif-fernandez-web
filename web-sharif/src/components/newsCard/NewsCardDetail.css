@@ -35,10 +35,8 @@
 }
 
 .article-description{
-    /* padding-left: 3rem; */
     color: black;
     text-align: start;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1rem;
     font-weight: 200;
 }
