@@ -28,6 +28,9 @@ return (
                 </li>
                 <li className='item'>Videos</li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                ☰
+            </button>
         </nav>
     </header>
 )
