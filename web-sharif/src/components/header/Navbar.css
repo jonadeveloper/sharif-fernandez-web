@@ -1,3 +1,28 @@
+/* ≤ 1400px */
+@media (max-width: 1399px) {
+    /* Ajustes para pantallas grandes más pequeñas */
+  }
+  
+  /* ≤ 1200px */
+  @media (max-width: 1199px) {
+    /* Ajustes para laptops */
+  }
+  
+  /* ≤ 992px */
+  @media (max-width: 991px) {
+    /* Ajustes para tablets */
+  }
+  
+  /* ≤ 768px */
+  @media (max-width: 767px) {
+    /* Ajustes para móviles grandes */
+  }
+  
+  /* ≤ 576px */
+  @media (max-width: 575px) {
+    /* Ajustes para móviles pequeños */
+  }
+
 header {
     position: fixed;
     width: 100%;
