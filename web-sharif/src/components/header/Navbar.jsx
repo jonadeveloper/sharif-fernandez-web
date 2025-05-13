@@ -1,14 +1,10 @@
 import {useState} from 'react'
 import "./Navbar.css"
 import Logo from "../../assets/sharifLOGO2.webp"
-import { TiArrowSortedDown } from "react-icons/ti";
-import { Link } from 'react-router-dom';
-
 
 
 
 export default function Navbar() {
-    const [open, setOpen] = useState(false);
     const [openMenu, setOpenMenu] = useState(false)
 
   const toggleMenu = () => {
