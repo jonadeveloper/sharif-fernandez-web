@@ -22,23 +22,15 @@ return (
                 <li className='item'><a className='item-link' href="/#">Inicio</a></li>
                 <li className='item'><a className='item-link' href='/#news'>Noticias</a></li>
                 <li className='item'><a className='item-link' href="/conciertos">Conciertos</a></li>
-                <li className='item store'  onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
-                    Tienda <TiArrowSortedDown />
-                    {open && (
-                        <ul className='sub-menu'>
-                            <li className='item'><a className='item-link' href="https://rattio.es/sharif/" target='_blank'>España</a></li>
-                            <li className='item'><a className='item-link' href="https://sharifstoremx.com/?fbclid=IwY2xjawGcOWFleHRuA2FlbQIxMAABHRXfIDoNTZvu8NMRovyjqkebQGGIvXbdxr7saRsr9CKrDO3QM00vlcsDXg_aem_KNPGPX1H6NquJ17VSMgQew" target='_blank'>Mexico</a></li>
-                        </ul>
-                    )}
-                </li>
                 <li className='item'>Videos</li>
             </ul>
             <button class="hamburger" onClick={toggleMenu} id="hamburger" aria-label="Abrir menú">
                 ☰
             </button>
             <nav className={`menu-hamburger ${openMenu ? "show" : ""}`}>
-                <a href="#inicio" onClick={() => setOpenMenu(false)}>Inicio</a>
-                <a href="#proyectos" onClick={() => setOpenMenu(false)}>Proyectos</a>
+                <a className='item-link' onClick={() => setOpenMenu(false)} href="/#">Inicio</a>
+                <a className='item-link' href='/#news'>Noticias</a>
+                <a className='item-link' href="/conciertos">Conciertos</a>
                 <a href="#contacto" onClick={() => setOpenMenu(false)}>Contacto</a>
             </nav>
         </nav>
