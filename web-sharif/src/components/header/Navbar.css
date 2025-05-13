@@ -162,15 +162,32 @@ header {
 
   .menu-hamburger {
     position: absolute;
-    top: 100%;
+    width: 10rem;
+    top: 0;
+    right: 0; 
     flex-direction: column;
-    align-items: center;
-    background-color: transparent;
+    align-items: flex-start;
+    background-color: #00000083;
     display: none;
+    padding-top: 0.5rem;
+  }
+
+  .item-link{
+    text-decoration: none;
+    color: #c78c3a;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.15rem;
+    padding-top: 0.25rem;
   }
 
   .menu-hamburger.show {
     display: flex;
+  }
+
+  .disabled{
+    display: none;
   }
   }
   

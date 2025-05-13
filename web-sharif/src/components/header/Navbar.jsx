@@ -20,14 +20,14 @@ return (
                 <li className='item'><a className='item-link' href="/conciertos">Conciertos</a></li>
                 <li className='item'>Videos</li>
             </ul>
-            <button class="hamburger" onClick={toggleMenu} id="hamburger" aria-label="Abrir menú">
+            <button class={`hamburger ${openMenu ? "disabled" : ""}`} onClick={toggleMenu} id="hamburger" aria-label="Abrir menú">
                 ☰
             </button>
             <nav className={`menu-hamburger ${openMenu ? "show" : ""}`}>
                 <a className='item-link' onClick={() => setOpenMenu(false)} href="/#">Inicio</a>
-                <a className='item-link' href='/#news'>Noticias</a>
-                <a className='item-link' href="/conciertos">Conciertos</a>
-                <a href="#contacto" onClick={() => setOpenMenu(false)}>Contacto</a>
+                <a className='item-link' onClick={() => setOpenMenu(false)}  href='/#news'>Noticias</a>
+                <a className='item-link' onClick={() => setOpenMenu(false)}  href="/conciertos">Conciertos</a>
+                <a className='item-link' href="#contacto" onClick={() => setOpenMenu(false)}>Contacto</a>
             </nav>
         </nav>
     </header>
