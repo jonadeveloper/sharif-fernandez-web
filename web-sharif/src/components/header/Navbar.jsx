@@ -9,6 +9,11 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
+    const [openMenu, setOpenMenu] = useState(false)
+
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu)
+  }
 return (
     <header>
         <img src={Logo} id='logo' alt="Logo" />
@@ -28,9 +33,14 @@ return (
                 </li>
                 <li className='item'>Videos</li>
             </ul>
-            <button class="hamburger" id="hamburger">
+            <button class="hamburger" onClick={toggleMenu} id="hamburger" aria-label="Abrir menú">
                 ☰
             </button>
+            <nav className={`menu-hamburger ${openMenu ? "show" : ""}`}>
+                <a href="#inicio" onClick={() => setOpenMenu(false)}>Inicio</a>
+                <a href="#proyectos" onClick={() => setOpenMenu(false)}>Proyectos</a>
+                <a href="#contacto" onClick={() => setOpenMenu(false)}>Contacto</a>
+            </nav>
         </nav>
     </header>
 )
