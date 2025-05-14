@@ -19,10 +19,10 @@ export default function NewsCardDetail() {
           <p className='article-description'>{article.textComplete}</p>
         </div>
       </div>
-    </article>
     <button className='btn-back' onClick={() => navigate(-2)}>
-        volver
+        volver al inicio
     </button>
+    </article>
     </>
   )
 }

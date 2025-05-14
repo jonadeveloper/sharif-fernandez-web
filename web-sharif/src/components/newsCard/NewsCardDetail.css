@@ -1,8 +1,9 @@
 .article-container{
     display: flex;
-    height: 90vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .article{
@@ -15,11 +16,41 @@
 
 .article-title{
     padding-top: 2rem;
+    padding-left: 2rem;
     background: linear-gradient(to bottom, #e59c37 0%, #2b2b2b 100%);
     background-size: contain;
-    text-align: center;
+    text-align: start;
     font-size: 3.2rem;
     letter-spacing: 2px;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.article-description{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    background: linear-gradient(to bottom, #999999 0%, #545353 100%);
+    background-size: contain;
+    text-align: start;
+    letter-spacing: 2px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.10rem;
+}
+
+.btn-back{
+    margin: 3rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    background: linear-gradient(to bottom, #e59c37 0%, #2b2b2b 100%);
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-back:hover{
+    cursor: pointer;
 }
