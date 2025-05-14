@@ -12,13 +12,13 @@ export default function NewsCardDetail() {
   return (
     <>
     <article className='article-container'>
-      <div className="article-img">
-          <img className='img-news' src={article.image} alt={article.title}/>
-      </div>
+      <div className="article">
+        <img className='img-news' src={article.image} alt={article.title}/>
         <div className="article-body">
           <h1 className='article-title'>{article.title}</h1>
           <p className='article-description'>{article.textComplete}</p>
         </div>
+      </div>
     </article>
     <button className='btn-back' onClick={() => navigate(-2)}>
         volver
