@@ -146,7 +146,7 @@
     height: 100vh;
 }
 
-.section-news-title{
+.section-title{
     margin-top: 2rem;
     padding: 1.5rem;
     text-align: center;
@@ -161,4 +161,17 @@
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
+}
+
+.latest-release{
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.cd-sharif{
+    display: flex;
+}
+
+.cd-sharif>img{
+    width: 30rem;
 }
